@@ -96,7 +96,7 @@ tr:hover {
     border: solid 3px #000;
 }
 
-.container .btn {
+.container button {
     position: absolute;
     top: 100%;
     left: 50%;
@@ -109,7 +109,7 @@ tr:hover {
     font-family: "Silkscreen", Arial, Helvetica, sans-serif;
 }
 
-.container .btn:hover {
+.container button:hover {
     opacity: 0.6;
 }
 
