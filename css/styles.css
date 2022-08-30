@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Josefin+Sans&family=Padauk&family=Play&family=Silkscreen&display=swap');
+
+html {
+    box-sizing: border-box;
+    background-color: darkmagenta;
+}
+
+header {
+    font-family: "Silkscreen", Arial, Helvetica, sans-serif;
+    font-size: 75px;
+    background-color: darkcyan;
+    color: crimson;
+}
+
+body {
+    margin: 0;
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#reasons {
+    text-align: center;
+    padding: 15px;
+}
+
+#reasons h2 {
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.blink {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+#reasons li {
+    list-style: none;
+    font-family: "Padauk", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+table {
+   background-color: cornsilk; 
+   color: brown;
+   font-family: "Play", Arial, Helvetica, sans-serif;
+}
+
+table, th, td {
+    text-align: center;
+    width: 100%;
+    border: 1px solid;
+    vertical-align: middle;
+}
+
+th, td {
+    padding: 5px;
+}
+
+td {
+    width: 50%;
+}
+
+tr:hover {
+    background-color: brown;
+    color: cornsilk;
+}
+
+#right-column {
+    padding: 15px;
+}
+
+#right-column p {
+    padding: 10px;
+    font-family: "Abel", Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.container {
+    position: relative;
+    margin-top: 30px;
+}
+
+.container img {
+    width: 30%;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+    border: solid 3px #000;
+}
+
+.container .btn {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin: 10px;
+    background-color: goldenrod;
+    color: dodgerblue;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 10px;
+    font-family: "Silkscreen", Arial, Helvetica, sans-serif;
+}
+
+.container .btn:hover {
+    opacity: 0.6;
+}
+
+footer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+}
+
+.construction {
+    width: 20%;
+    height: auto;
+    border: solid 3px #000;
+    margin: 20px;
+}
